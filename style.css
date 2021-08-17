@@ -1,0 +1,181 @@
+/* Animal Care Website */
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#top_nav{
+    background-color: #f2d61d !important;
+    padding-right: 8% ;
+    padding-left: 8%;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 25px;
+}
+#searchbox {
+    background-color: #fcc302;
+    color: white;
+    border-radius: 0px;
+    position: relative;
+    left: 50px;
+    box-shadow: 5px 5px 5px 1px #7b7777;
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+#searchbox::placeholder{
+    color: white;
+}
+@media only screen and (max-width: 768px){
+    #search-form{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -30px;
+    }
+}
+
+#banner{
+    background-color: #fcc302;
+    padding-top: 20px;
+}
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+}
+
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px ;
+}
+#bannerimage img{
+        height: 100%;
+    }
+#banner-btn-1{
+    background-color:#00bec9 ;
+    color: white;
+}
+#banner-btn-2{
+     color: white;
+     border-style: 2px solid;
+     border-color: white;
+     margin-left: 55px;
+     font-weight: 600;
+}
+@media(max-width: 1136px){
+        #bannertext h1{
+        font-size: 50px;
+    }
+    #banner{
+        margin-bottom: 70px;
+    }
+}
+@media(min-width:765px) and (max-width: 832px){
+        #bannertext h1{
+        font-size: 40px;
+    }
+}
+/*<!--Service Section-->*/
+#second-section{
+    background-color: white;
+    margin-top: 30px;
+}
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+}
+#service-img{
+    padding: 5%;
+}
+/*Counter Section*/
+#counter-section{
+    background-image: url("backimage.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.counter-icon{
+    font-size: 70px;
+}
+#blog{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.blog-title{
+
+    font-weight: bolder;
+}
+.blog-desc{
+padding: 15px;
+border: 1px solid rgb(185, 185, 185);
+border-top: 0;
+}
+.blog-date , .blog-link{
+    color: #00bec9;
+    font-weight: 600;
+}
+/*footer*/
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#search-footer-box{
+background-color: #fcc302;
+color: white;
+border: 0;
+width: 300px;
+padding: 10px 20px;
+position: relative;
+left: 10px;
+max-width: 250px;
+
+}
+#search-footer-submit{
+background-color: #00bec9;
+color: white;
+border: 0;
+border-radius: 0;
+padding: 10px 40px;
+}
+.social-icon{
+    font-size: 25px;
+    padding-left: 10px;
+}
+@media (max-width: 1142px){
+    #search-footer-box{
+    max-width: 120px;
+
+}
+}
+@media (min-width: 500px) and (max-width: 768px){
+    #search-footer-box{
+    max-width: 200px;
+}
+#footer{
+    padding-top: 10px;
+}
+#footer h1{
+    padding-top: 50px;
+}
+}
